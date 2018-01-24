@@ -1,0 +1,86 @@
+[
+    {
+        "id": 56,
+        "offerredDate": "2017-12-04 02:59:51.000 ",
+        "quantity": 1,
+        "offerBundleId": 0,
+        "maxPrice": 500.00,
+        "endDate": "2017-12-22 00:00:00.000 ",
+        "createdBy": null,
+        "createdTime": "2017-12-04 02:59:51.000 ",
+        "updatedBy": null,
+        "updatedDate": "2017-12-04 02:59:51.000 ",
+        "coconsumerKeyId": {
+            "id": 9,
+            "handle": "John",
+            "email": "johnhardigree@yahoo.com",
+            "firstName": "John",
+            "middleName": null,
+            "lastName": "Hardigree",
+            "phone": "123-456-7899",
+            "createdBy": "urshopper",
+            "createdDate": "2017-12-04 02:56:21.000 ",
+            "updatedBy": "urshopper",
+            "updatedDate": "2017-12-04 02:56:21.000 ",
+            "isActive": true,
+            "cmarketerKeyId": {
+                "id": 1,
+                "domain": "www.mydealsden.com",
+                "name": "My Deals Den",
+                "marketertype": "Online",
+                "currency": "USD",
+                "description": "Online retailer for shopping with best deals.",
+                "createdBy": null,
+                "createdDate": "2017-10-24",
+                "updatedBy": null,
+                "updatedDate": null,
+                "isActive": null
+            }
+        },
+        "compkeyId": {
+            "id": 385,
+            "price": 530.0,
+            "currency": "USD",
+            "sku": "LT_MIR_DC",
+            "createdBy": "urshopper",
+            "createdDate": "2017-10-27 00:41:51.000 ",
+            "updatedBy": "urshopper",
+            "updatedDate": "2017-10-27 00:41:51.000 ",
+            "isActive": true,
+            "mpmarketerKeyId": {
+                "id": 1,
+                "domain": "www.mydealsden.com",
+                "name": "My Deals Den",
+                "marketertype": "Online",
+                "currency": "USD",
+                "description": "Online retailer for shopping with best deals.",
+                "createdBy": null,
+                "createdDate": "2017-10-24",
+                "updatedBy": null,
+                "updatedDate": null,
+                "isActive": null
+            },
+            "mpproductKeyId": {
+                "id": 385,
+                "manufacturer": "Leica",
+                "name": "Leica T Mirrorless Digital Camera",
+                "ean": null,
+                "gtin": null,
+                "description": "Leica T (Typ 701) Silver",
+                "uom": null,
+                "createdBy": null,
+                "createdDate": "2017-10-26",
+                "updatedBy": null,
+                "updatedDate": null,
+                "isActive": null
+            }
+        },
+        "coofferStatusKeyId": {
+            "id": 1,
+            "status": "Submitted",
+            "description": "Consumer submitted an Offer."
+        },
+        "current": true
+    }
+    
+]

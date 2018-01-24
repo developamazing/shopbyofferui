@@ -1,0 +1,72 @@
+html { height:100%; }
+body { position:absolute; top:0; bottom:0; right:0; left:0;  }
+
+.hero {
+    width: 50%;
+    opacity: 0.9;
+    filter: alpha(opacity=90); 
+}
+
+.full {
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+}
+
+.articleTitle
+{
+    margin: 2px;
+    font-size: 22px;
+    color: #000000;
+    padding: 5px 10px;
+    font-weight: normal;
+    text-align: left;
+    text-shadow: 2px 2px 3px #ccc;
+    background-color:  #f2f2f2;
+}
+
+.articleSubTitle
+{
+    margin: 2px 0 10px 0;
+    color: #222;
+    padding: 0 10px;
+    font-weight: normal;
+    text-align: left;
+    text-shadow: 1px 1px 1px #eee;
+}
+
+.singleView
+{
+    width: 100px;
+    height: 100px;
+    background-color: lemonchiffon;
+}
+
+.hider
+{
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+}
+
+.ulnone {
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: none;
+}
+#menu-outer {
+    height: 84px;
+}
+
+ul#listView {
+    min-width: 196px;
+    list-style: none;
+    padding-top: 20px;
+    background-color: transparent;
+}
+
+ul#listView li {
+    display: inline-block;
+    border: 1px gray;
+    border-right: 3px solid transparent;
+}

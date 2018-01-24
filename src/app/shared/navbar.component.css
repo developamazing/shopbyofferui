@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+
+div {
+        background-color: rgb(255,204,0);
+}
+.top-bar-title {
+    background-color: rgb(255,204,0);
+    font-family: 'Coiny', cursive;
+    font-size: 22px;
+    color: #565656;
+}
+
+.nav-menu a, a:visited {
+    font-weight: bolder;
+    background-color: rgb(255,204,0);
+    color: royalblue;
+}
+.nav-menu a:active {
+    background-color: orangered;
+    color: #aaddff;
+}
+.nav-menu a:hover {
+    background-color: orangered;
+    color: #aaddff;
+}

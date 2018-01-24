@@ -1,0 +1,33 @@
+<div class="full">
+  <navi-bar></navi-bar>
+  <h1 class="articleTitle">Suppliers</h1>
+  <div>
+      <span class="articleSubTitle">Supplier Name:</span>
+      <input [(ngModel)]="searchText" placeholder="Enter search text here">
+  </div>
+  <table stye="cellpadding:1px; cellspacing:1px;" border="1px" >
+    <tr style="background-color: lightblue">
+        <th>Supplier Type</th>
+        <th>Name</th>
+        <th>Parent</th>
+        <th>Currency</th>
+        <th>Created By</th>
+        <th>Created Date</th>
+        <th>Updated By</th>
+        <th>Updated Date</th>
+        <th>Is Active?</th>
+    </tr>
+    <tr *ngFor="let value of allSuppliers | filter : {name: searchText}">
+      <td>{{value.suplierType}} </td>
+      <td><a href={{value.domain}} target="_blank">{{value.name}}</a> </td>
+      <td>{{value.parentSuplierName}} </td>
+      <td>{{value.currency}} </td>
+      <td>{{value.createdBy}} </td>
+      <td>{{value.createdDate}} </td>
+      <td>{{value.updatedBy}} </td>
+      <td>{{value.updatedDate}} </td>
+      <td>{{value.isActive}} </td>
+    </tr>
+  </table>
+  <footer></footer>
+</div>

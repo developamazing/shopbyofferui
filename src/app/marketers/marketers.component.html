@@ -1,0 +1,41 @@
+<div class="full">
+  <navi-bar></navi-bar>
+    <h1 class="articleTitle">Marketers</h1>
+  <div>
+      <span class="articleSubTitle">Marketer Name:</span>
+      <input [(ngModel)]="searchText" placeholder="Enter search text here">
+  </div>
+ <!-- 
+  <table stye="cellpadding:1px; cellspacing:1px;" border="1px" >
+    <tr style="background-color: lightblue">
+        <th>Marketer Type</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Currency</th>
+        <th>Created By</th>
+        <th>Created Date</th>
+        <th>Updated By</th>
+        <th>Updated Date</th>
+        <th>Is Active?</th>
+    </tr>
+    <tr *ngFor="let value of allMarketers | filter : {name: searchText}">
+      <td>{{value.marketertype}} </td>
+      <td><a href={{value.domain}} target="_blank">{{value.name}}</a> </td>
+      <td>{{value.description}} </td>
+      <td>{{value.currency}} </td>
+      <td>{{value.createdBy}} </td>
+      <td>{{value.createdDate}} </td>
+      <td>{{value.updatedBy}} </td>
+      <td>{{value.updatedDate}} </td>
+      <td>{{value.active}} </td>
+    </tr>
+  </table>
+-->
+  <ul id="listView">
+      <li *ngFor="let marketer of allMarketers | filter : {name: searchText}">
+          <marketerview [current]="marketer"></marketerview>
+      </li>
+  </ul>
+
+  <footer></footer>
+</div>

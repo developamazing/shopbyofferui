@@ -1,0 +1,27 @@
+<div class="full">
+  <navi-bar></navi-bar>
+  <h1 class="articleTitle">Consumer Offers</h1>
+  <div>
+      <span class="articleSubTitle">Consumer Name:</span>
+      <input [(ngModel)]="searchText" placeholder="Enter search text here">
+  </div>
+  <table stye="cellpadding:1px; cellspacing:1px;" border="1px" >
+    <tr style="background-color: lightblue">
+        <th>Consumer Name</th>
+        <th>Product Name</th>
+        <th>Quantity</th>
+        <th>Offer Price</th>
+        <th>Offer Date</th>
+        <th>Status</th>
+    </tr>
+    <tr *ngFor="let value of allConsumerOffers | filter : searchText">
+      <td>{{value.coconsumerKeyId.handle}}</td>
+      <td>{{value.compkeyId.mpproductKeyId.name}}</td>
+      <td align='right'>{{value.quantity}} </td>
+      <td align='right'>{{value.maxPrice | currency}} </td>
+      <td>{{value.offerredDate}} </td>
+      <td>{{value.coofferStatusKeyId.status}} </td>
+    </tr>
+  </table>
+  <footer></footer>
+</div>
